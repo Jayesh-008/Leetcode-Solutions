@@ -6,10 +6,4 @@ class Solution(object):
                 sum += num % 10
                 num = num / 10
             num = sum 
-        return num
-
-                
-            
-
-        
-        
+        return num   
