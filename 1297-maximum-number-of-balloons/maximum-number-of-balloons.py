@@ -5,8 +5,8 @@ class Solution(object):
         l = text.count('l')//2
         o = text.count('o')//2
         n = text.count('n')
-
-        return min(b,a,l,o,n)
+        
+        return min(a,b,o,l,n)
 
        
         
